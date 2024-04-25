@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  rt-core:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-04-25T13:58:00.151835498Z"
+    description: A Helm chart for Kubernetes
+    digest: 2528847fc777431a3a266cb8cc6efb970564c238a7f5a96d3d6b5dd8337f40d3
+    name: rt-core
+    type: application
+    urls:
+    - https://github.com/silviucuruciucfp/Race-Tracker-Charts/releases/download/rt-core-0.1.0/rt-core-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-04-25T13:58:00.151841539Z"
