@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "dummy-chart.fullname" . }}
+  name: test
   labels:
     {{- include "dummy-chart.labels" . | nindent 4 }}
 spec:
