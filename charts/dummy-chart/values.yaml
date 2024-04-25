@@ -8,7 +8,7 @@ image:
   repository: 637423305212.dkr.ecr.eu-central-1.amazonaws.com/rt-core-dev
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "f443957eb790023d3a0aa24c569f159ba3b6452f"
+  tag: "443292faa7ab5bae4f56d6d67fcae7c389469fdc"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -78,11 +78,11 @@ resources: {}
 
 livenessProbe:
   httpGet:
-    path: /hello
+    path: /
     port: 8080
 readinessProbe:
   httpGet:
-    path: /hello
+    path: /
     port: 8080
 
 autoscaling:
