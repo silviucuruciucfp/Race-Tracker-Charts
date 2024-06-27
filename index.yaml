@@ -3,6 +3,16 @@ entries:
   dummy-chart:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-06-27T09:21:14.807562817Z"
+    description: A Helm chart for Kubernetes
+    digest: 16235718600b25ab4e438c60da2cea5366d8e7f23dbd7490ceabf07ca4fa9647
+    name: dummy-chart
+    type: application
+    urls:
+    - https://github.com/silviucuruciucfp/Race-Tracker-Charts/releases/download/dummy-chart-0.1.9/dummy-chart-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-06-27T09:10:10.841773651Z"
     description: A Helm chart for Kubernetes
     digest: 002872268fbfd609fe265cedcc19a9ba10cf2d3d9fa9d39f57fe36e18597a30b
@@ -102,4 +112,4 @@ entries:
     urls:
     - https://github.com/silviucuruciucfp/Race-Tracker-Charts/releases/download/rt-core-0.1.0/rt-core-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-27T09:10:10.841820979Z"
+generated: "2024-06-27T09:21:14.807598023Z"
